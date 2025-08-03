@@ -12,9 +12,10 @@
     "react-scripts": "5.0.1",
     "styled-components": "^6.1.19"
   },
+  "homepage": "https://artem-dykyi.github.io/goiteens-events-js-/",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build --public-url ./",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
